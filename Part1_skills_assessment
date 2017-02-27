@@ -2,7 +2,7 @@ Part1-Discussion1
 
 #####Runtime######
 
-1. Work load refers to the number of crackers in the box
+1. Work load refers to the length of the list in the box
 
 2. O(1), O(log n), O(n), O(n log n), O(n^2), O(2^n), O(n!)
 
@@ -11,23 +11,26 @@ Stacks and Queues
 #####Stacks and Queues#####
 
 1.
-	1.The process of loading and unloading is a stack because you can add and remove only from top. and unloading is queue
+	1.The process of loading and unloading is a stack because you can add and remove only from top. 
 
-	2. Putting bottles caps on bottle is a queue becuase you can only add to the back and remove from front.  And the first one that is in queue gets the first cap.
+	2. Putting caps on a bottle is a queue becuase you can only add an itme to the back and remove it from front.  And the first bottle that is in queue gets the first cap.
 	
 	3. Calculating the solution is a queue. 
 
-2. Movie tickets line is one example.  And accessing web pages is another one
+2. Movie tickets line and accessing web pages are two examplels of a queue
 
-3. When we do undo button and error tracebacks are other examples of stack
+3. Undo button and error tracebacks are two examples of a stack
 
 #####Linked Lists#####
 
-1. The node has two attributes. One is data and another one is next.  "Apple", next" | Berry",next | "Cherry", next are all nodes. The data is "Apple", "Berry", Cherry are data. Head is the first node which is "Apple" and the Tail is at the end which is "Cherry" node
+1. The node has two attributes. One is data and another one is next.  "Apple", next" | Berry",next | "Cherry", next are all nodes. 
+The data is "Apple", "Berry", Cherry. Head is the first node which is "Apple" and the Tail is the end node which is "Cherry".
 
-2. In a doubly linked list each node has 3 parts.  It has data and pointers to previous and next nodes.  If you add or delete to this node you need to update previous and next pointers. And singly linked list has pointers only to the next node. And only update the next pointer.
+2. In a doubly linked list each node has 3 parts.  It has data and pointers to previous and next nodes.  If you add or delete to 
+this node you need to update previous and next pointers. And singly linked list has pointers only to the next node. 
+And you only need to update the next pointer.
 
-3. Keeing track of the tail in linked list is important.  Otherwise we would have to loop over entire list inorder to find tail.  If we keep track of the tail all we need to do is create a new node and add it zto the tail and change the pointer.
+3. Keeing track of the tail in linked list is important.  Otherwise we would have to loop over entire list inorder to find tail.
 
 #####Trees#####
 
@@ -52,8 +55,10 @@ Stacks and Queues
 	9. [Italian, lasagna, pizza]
 	10.[lasagna, pizza]
 	11.[pizza, thin crust, Chicago-style, New York-style]
-	12. [thin crust, Chicago-style, New York-Style]
+	12.[thin crust, Chicago-style, New York-Style]
 	13. Chicago-style. We found it.
 
-3. Binary search tree has nodes and each node has a left and right child. The left side keys have values less than equal to the root.  And right side of the keys have values greater than or equal to root.  And child nodes have to have same principal.
+3. Binary search tree has only a left and right child. The left side of the keys values should be less than or equal
+to the root. And the right side of the keys values should greater than or equal to the root.  And child nodes should follow the same 
+principal.
 Tree is a hierarchical structure. It is a non-lenear structure.  Unlike Binary search tree, tree can have one child or many.
